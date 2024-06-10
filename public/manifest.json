@@ -1,0 +1,32 @@
+{
+    "name": "Odel Digest Restaurant - Nagercoil",
+    "short_name": "Odel Digest Restaurant",
+    "description": "Welcome to Odel Digest Restaurant, One of the best restaurants in nagercoil. Come and visit us for an delightful experience",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#EDEBE8",
+    "background_color": "#0E0D0B",
+    "display": "standalone",
+    "start_url": "http://localhost:3000",
+    "orientation": "landscape"
+}
