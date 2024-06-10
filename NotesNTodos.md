@@ -11,5 +11,5 @@
   - [x] Setup FontFamily
   - [x] Initial Cleanup, Setup & Test-Run
   - [x] Create a button component class & Test it
-  - [ ] Git Setup
+  - [x] Git Setup
   - [ ] Vercel Setup
