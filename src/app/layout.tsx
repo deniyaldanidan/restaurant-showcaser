@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { montserrat } from "@/lib/fonts";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Odel Digest Restaurant - Nagercoil",
@@ -18,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
+        <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

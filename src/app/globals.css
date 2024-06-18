@@ -8,10 +8,11 @@
   --section-inbetween-lg: 40px;
   --section-inbetween-md: 20px;
 
-  --logo-font-size: 1.25rem;
+  --logo-font-size: 1.375rem;
   --menu-font-size: 1.125rem;
   --button-font-size: 1.125rem;
   --section-title-font-size: 2.375rem;
+  --section-description-font-size: 1.125rem;
 }
 
 @layer base {
@@ -20,14 +21,14 @@
   }
 
   * {
-    @apply box-border font-normal not-italic text-base;
+    @apply box-border not-italic text-text;
   }
 }
 
 @layer utilities {
   .btn-primary,
   .btn-secondary {
-    @apply text-text text-button font-medium capitalize px-9 py-2.5 rounded-xl;
+    @apply text-text text-button font-medium capitalize px-9 py-2.5 w-fit h-fit whitespace-nowrap rounded-xl duration-100 active:scale-95 hover:bg-accent hover:text-bg;
   }
 
   .btn-primary {
@@ -36,5 +37,13 @@
 
   .btn-secondary {
     @apply bg-secondary;
+  }
+
+  .footer-navs-section {
+    @apply flex flex-col gap-y-10 items-center;
+  }
+
+  .footer-menu {
+    @apply font-medium text-lg duration-150 hover:underline hover:underline-offset-4 hover:text-accent;
   }
 }

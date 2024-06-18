@@ -41,6 +41,7 @@ const config: Config = {
         menu: "var(--menu-font-size)",
         button: "var(--button-font-size)",
         "section-title": "var(--section-title-font-size)",
+        "section-description": "var(--section-description-font-size)",
       },
     },
   },
