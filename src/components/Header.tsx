@@ -11,15 +11,21 @@ export default function Header() {
         <span className="text-logo">Restaurant</span>
       </h1>
       <div className="flex gap-x-14 items-center">
-        <Link href={"#"} className="capitalize text-menu font-medium">
+        <Link
+          href={"#"}
+          className="capitalize text-menu font-medium duration-150 hover:text-accent"
+        >
           Home
         </Link>
-        <Link href={"#"} className="capitalize text-menu font-medium">
+        <Link
+          href={"#"}
+          className="capitalize text-menu font-medium duration-150 hover:text-accent"
+        >
           Menu
         </Link>
-        <Link href={"#"} className="capitalize text-menu font-medium">
+        {/* <Link href={"#"} className="capitalize text-menu font-medium">
           Offers & Events
-        </Link>
+        </Link> */}
         <Link href={"#"} className="btn-primary">
           Book A Table
         </Link>

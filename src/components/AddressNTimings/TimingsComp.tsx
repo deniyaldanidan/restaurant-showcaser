@@ -1,6 +1,6 @@
 export default function TimingsComp() {
   return (
-    <div className="mt-[70px] bg-sec-bg rounded-xl py-5 px-10">
+    <div className="mt-section-pad-y bg-sec-bg rounded-xl py-5 px-10">
       <div className="flex justify-between items-center gap-x-14 max-w-[1065px] mx-auto">
         <div className="flex flex-col items-center gap-y-3">
           <h3 className="font-bold text-lg">BreakFast</h3>

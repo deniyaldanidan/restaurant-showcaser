@@ -4,6 +4,8 @@
 
 **Chosen Project Structure** = storing project files outside of `app dir`.
 
+> About offers section? Will decide after DB Planning & Other things
+
 ## Project Todos
 
 - Initial Setup & Test
@@ -19,5 +21,10 @@
 - [x] Create Footer Component
 - [x] Create CTA Section Component
 - [x] Create Address Component
-- [ ] Initial Homepage Development
+- [x] Initial Homepage Development
+  - [x] Testimonial
+  - [x] Our Story
+  - [x] What we serve
+  - [x] Hero
+- [ ] ...
 - [ ] MAKE Homepage Responsive, Accessible & SEO OPTIMI...

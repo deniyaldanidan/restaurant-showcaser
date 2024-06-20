@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer role="contentinfo" aria-label="WebPage Footer">
       {/* Primary Footer */}
-      <section className="flex justify-between gap-x-16 px-page-margin-x py-[70px] border-t-zinc-700 border-t-2">
+      <section className="flex justify-between gap-x-16 px-page-margin-x py-section-pad-y border-t-zinc-700 border-t-2">
         <div className="footer-navs-section">
           <h2 className="flex flex-col items-center">
             <span className={`${cinzel_decorative_reg.className} text-logo`}>

@@ -1,14 +1,17 @@
 import AddressNTimings from "@/components/AddressNTimings/AddressNTimings";
 import CTASection from "@/components/CTASection";
+import Hero from "@/components/Home/Hero";
+import OurStory from "@/components/Home/OurStory";
+import TestimonialsSection from "@/components/Home/TestimonialsSection/TestimonialsSection";
+import WhatWeServe from "@/components/Home/WhatWeServe/WhatWeServe";
 
 export default function Home() {
   return (
     <>
-      <div className="py-10 px-page-margin-x">
-        <span>Hello World, Welcome to Home </span>
-        <button className="btn-primary">Book a Table</button>
-        <button className="btn-secondary">Book a Table</button>
-      </div>
+      <Hero />
+      <WhatWeServe />
+      <OurStory />
+      <TestimonialsSection />
       <CTASection />
       <AddressNTimings />
     </>

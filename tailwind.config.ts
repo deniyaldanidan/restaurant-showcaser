@@ -33,8 +33,6 @@ const config: Config = {
       spacing: {
         "page-margin-x": "var(--page-margin-x)",
         "section-pad-y": "var(--section-pad-y)",
-        "section-inbetween-lg": "var(--section-inbetween-lg)",
-        "section-inbetween-md": "var(--section-inbetween-md)",
       },
       fontSize: {
         logo: "var(--logo-font-size)",
