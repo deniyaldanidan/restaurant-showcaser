@@ -9,6 +9,7 @@ export function LocationIcon(props: SVGProps<SVGSVGElement>) {
       height="1em"
       viewBox="0 0 24 24"
       {...props}
+      aria-hidden
     >
       <path
         fill="#EDEBE8"

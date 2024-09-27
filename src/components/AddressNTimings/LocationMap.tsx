@@ -10,6 +10,7 @@ export default function LocationMap({ className }: props) {
       allowFullScreen={false}
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
+      aria-label="Google map location for Odel digest restaurant"
     />
   );
 }

@@ -22,11 +22,27 @@
   - [x] Our Story
   - [x] What we serve
   - [x] Hero
-- [x] Planning & Design & Docs Update
-- [ ] Write DB SCHEMA
-- [ ] Setup Auth
-- [ ] Initial Dashboard development
-- [ ] /menus page development
-- [ ] /menus/[food-type] page development
-- [ ] Implement Subscribe-For-Updates functionality (Adding user-email to mailchimp-lists)
-- [ ] MAKE Homepage Responsive, Accessible & SEO OPTIMI...
+- [x] Planning & Design of Dashboard-pages
+- [x] Write DB SCHEMA
+- [x] Setup Auth
+- [x] Dashboard development
+- [x] Finish PROD Schema migration
+- [x] Fill out the data on PROD
+- [x] /menus page development
+- [x] /menus/[food-type] page development
+- [x] Implement Subscribe-For-Updates functionality (Adding user-email to mailchimp-lists)
+- [x] Reserve-A-Table page development
+- [x] /dashboard/bookings page development
+- [x] Terms & Privacy-Policy pages development
+- [x] Rendering & Cache Management
+- [x] MAKE Responsive, Accessible & SEO optimized
+
+## Routes & Rendering:
+
+- / - static x
+- /book-a-table - static x
+- /menus - should be static but should be revalidated by server-actions related to menus or food-categories x
+- /menus/[foodType] - SSG & revalidated by server-actions related to menus or food-categories x
+- all api's are dynamic should not be cached x
+- /app-sign-in & up are - static x
+- /dashboard/\* - dynamic x
