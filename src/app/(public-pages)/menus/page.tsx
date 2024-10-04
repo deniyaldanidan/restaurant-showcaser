@@ -11,7 +11,11 @@ export default async function MenusPage() {
   return (
     <>
       <PageHero />
-      <div role="group" aria-label="Our menus section">
+      <div
+        role="group"
+        aria-label="Our menus section"
+        // className="max-w-[1480px]"
+      >
         {foodTypeData.map((typ) => (
           <FoodTypeShowcaser
             key={typ.value}

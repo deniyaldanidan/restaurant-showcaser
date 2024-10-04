@@ -7,7 +7,7 @@ import myRoutes from "@/utils/myRoutes";
 export default function Hero() {
   return (
     <section
-      className="max-w-[1480px] mx-auto px-page-margin-x py-section-pad-y min-h-[75vh] h-fit flex items-start justify-between gap-x-14 laptop-md:gap-x-10 laptop-sm:flex-col laptop-sm:items-center laptop-sm:gap-y-12"
+      className="max-w-[1480px] h-fit mx-auto px-page-margin-x py-[70px] flex items-start justify-between gap-x-14 laptop-md:gap-x-10 laptop-sm:flex-col laptop-sm:items-center laptop-sm:gap-y-12 tablet:py-16 tablet-sm:py-14 mobile:py-12"
       aria-label="Hero section of Home Page"
     >
       {/* left */}

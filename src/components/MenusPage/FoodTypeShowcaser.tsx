@@ -16,7 +16,7 @@ type props = {
 export default function FoodTypeShowcaser(props: props) {
   return (
     <section
-      className="group px-page-margin-x first:pt-16 pb-16 grid grid-cols-2 grid-rows-1 gap-x-14 laptop:gap-x-10 laptop-md:gap-x-7 tablet-lg:flex tablet-lg:flex-col tablet-lg:gap-y-7"
+      className="group max-w-[1480px] mx-auto px-page-margin-x first:pt-16 pb-16 grid grid-cols-2 grid-rows-1 gap-x-14 laptop:gap-x-10 laptop-md:gap-x-7 tablet-lg:flex tablet-lg:flex-col tablet-lg:gap-y-7"
       aria-label={`${props.typeName} section`}
     >
       <div className="relative w-full h-full min-h-full max-w-[600px] row-span-1 row-start-1 col-span-1 group-even:col-start-2 tablet-lg:mx-auto tablet-lg:aspect-square">
